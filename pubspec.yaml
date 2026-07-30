@@ -1,0 +1,30 @@
+name: holo_radio
+description: Holo Radio - Native Flutter Digital Modem
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  encrypt: ^5.0.1
+  pointycastle: ^3.7.3
+  crypto: ^3.0.3
+  intl: ^0.19.0
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
